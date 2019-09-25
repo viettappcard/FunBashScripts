@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Take in string and use as commit and push message
+
+git commit -m "$1" && git push origin master
