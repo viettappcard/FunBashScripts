@@ -21,5 +21,15 @@ Takes in argument and add all files, commit with argument as message and push to
 
 Take in argument, commit with argument and push to origin master
 
+## Command line
+1. Find files larger than 50MB in current directory and children:
+   ```bash
+   find . -type f -size +50M
+   ```
+   current dir only:
+   ```bash
+   find . -maxdepth 1 -type f -size +100M
+   ```
+
 ## Author and Acknowledgements
 Author: Viet Than, Department of EECS, Vanderbilt University, US.<br>
