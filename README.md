@@ -7,7 +7,7 @@
 </p>
 
 ## General Information
-Bash scripts to increase work flow. For personal use but welcome to for use.
+Bash scripts to increase work flow. For personal use but welcome all to use and add to.
 
 I make symlinks for them within /usr/local/bin .
 
