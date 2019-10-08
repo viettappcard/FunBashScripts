@@ -45,6 +45,11 @@ Take in argument, commit with argument and push to origin master
    git push origin localBranchName:remoteBranchName
    ```
 
+4. If you're in the business of merging unrelated histories
+   ```bash
+   git pull --allow-unrelated-histories
+   ```
+
 
 ## Author and Acknowledgements
 Author: Viet Than, Department of EECS, Vanderbilt University, US.<br>
