@@ -30,13 +30,15 @@ Take in argument, commit with argument and push to origin master
    ```bash
    find . -maxdepth 1 -type f -size +100M
    ```
-   
-2. Keep either files in merge conflicts. Taken from <a href="http://gitready.com/advanced/2009/02/25/keep-either-file-in-merge-conflicts.html">Link</a>
+
+## git commands
+
+1. Keep either files in merge conflicts. Taken from <a href="http://gitready.com/advanced/2009/02/25/keep-either-file-in-merge-conflicts.html">Link</a>
    ```bash
    git checkout --ours keep_local_current_branch_file
    git checkout --theirs keep_other_branch_file
    ```
-3. Push to single branch. If your Local branch and remote branch is the same name then you can just do it:
+2. Push to single branch. If your Local branch and remote branch is the same name then you can just do it:
    ```bash
    git push origin branchName
    ```
@@ -45,11 +47,15 @@ Take in argument, commit with argument and push to origin master
    git push origin localBranchName:remoteBranchName
    ```
 
-4. If you're in the business of merging unrelated histories
+3. If you're in the business of merging unrelated histories
    ```bash
    git pull --allow-unrelated-histories
    ```
 
+4. To push to remote branch that does not have same name as local branch:
+   ```bash
+   git push remote local_branch:remote_branch
+   ```
 
 ## Author and Acknowledgements
 Author: Viet Than, Department of EECS, Vanderbilt University, US.<br>
