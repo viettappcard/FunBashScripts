@@ -56,6 +56,11 @@ Take in argument, commit with argument and push to origin master
    ```bash
    git push remote local_branch:remote_branch
    ```
+   
+5. To checkout a remote branch and work on it
+   ```bash
+   git checkout --track origin/newsletter
+   ```
 
 ## Author and Acknowledgements
 Author: Viet Than, Department of EECS, Vanderbilt University, US.<br>
