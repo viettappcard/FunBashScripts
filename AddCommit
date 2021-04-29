@@ -2,4 +2,4 @@
 
 # Take in string and use as commit and push message
 
-git add -A && git commit -m "$1" && git push
+git add -A && git commit -m "$1"
