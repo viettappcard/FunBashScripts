@@ -62,7 +62,7 @@ Take in argument, commit with argument and push to origin master
    git checkout --track origin/newsletter
    ```
    
-6. To revert commit without losing changes. Taken from a href="https://stackoverflow.com/questions/19859486/how-to-un-commit-last-un-pushed-git-commit-without-losing-the-changes">a nice StackOverflow exchange</a>
+6. To revert commit without losing changes. Taken from <a href="https://stackoverflow.com/questions/19859486/how-to-un-commit-last-un-pushed-git-commit-without-losing-the-changes">a nice StackOverflow exchange</a>
    ```bash
    git reset HEAD~1 --soft  
    ```
